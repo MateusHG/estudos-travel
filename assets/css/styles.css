@@ -1,0 +1,192 @@
+@import url(reset.css);
+
+header {
+  height: 360px;
+  position: relative;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), 
+              url('/assets/images/pexels-asadphoto-1430677.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+nav {
+  margin-top: -10px;
+  position: absolute; /* Permite que o nav fique acima da imagem */
+  top: 0px;  /* Ajuste a distância do topo conforme necessário */
+  left: 50%;  /* Centraliza o nav horizontalmente */
+  transform: translateX(-50%);  /* Ajusta para ficar centralizado */
+  z-index: 10;  /* Garante que o conteúdo do nav fique acima da imagem */
+  display: flex;
+  justify-content: space-between; /* Alinha os botões centralizados */
+  width: 100%; /* Garante que o nav ocupe toda a largura */
+}
+
+nav button {
+  background-color: transparent;
+  color: white; /* Garante que o texto do botão fique visível */
+  border: 0px solid white;  /* Borda branca nos botões */
+  padding: 10px 10px;
+  cursor: pointer;
+  margin: 10px 20px;  /* Espaçamento entre os botões */
+  transition: all 0.3s ease-in-out; /* Transição suave para hover */
+}
+
+nav button:hover {
+  background-color: white; /* Altera a cor de fundo ao passar o mouse */
+  color: #630caa; /* Altera a cor do texto no hover */
+}
+
+/* Ajuste na imagem de fundo */
+.imagem-fundo {
+    min-height: 400px; /* Ajuste para cobrir melhor */
+    position: relative;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0), rgba(0, 153, 255, 0.795)),
+                url('/assets/images/pexels-asadphoto-1430677.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+/* Ajuste no texto dentro do header */
+header p {
+  position: absolute;
+  top: 70px;
+  left: 5%;
+  color: white;
+  font-weight: 600;
+  font-size: 35px;
+  max-width: 425px;
+  line-height: 55px;
+  text-transform: lowercase; /* Se deseja deixar tudo em maiúsculo */
+}
+
+.comeca-agora {
+  color: rgba(85, 35, 224, 0.8);
+  line-height: 1px;
+}
+
+/* Ajustes na estrutura principal */
+main {
+  text-align: center;
+}
+
+/* Estilização do título com destaque */
+main .destaquecom {
+  color: rgba(85, 35, 224, 0.8);
+  font-weight: bold;
+  border: 3px solid #630caa;
+  border-top-left-radius: 50%;
+}
+
+/* Ajuste no título principal */
+main h1 {
+  position: relative;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Melhorias nos botões */
+.button-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os botões quebrem de linha em telas menores */
+  gap: 20px; /* Espaçamento entre os botões */
+  justify-content: center; /* Centraliza os botões */
+  margin-top: 50px;
+}
+
+main button {
+  width: 180px; /* Ajuste para deixar os botões de tamanho uniforme */
+  height: 200px;
+  background-color: white;
+  border: 2px solid #630caa;
+  border-radius: 7px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  
+  /* Centraliza texto e imagem dentro do botão */
+  display: flex;
+  flex-direction: column; /* Para alinhar texto e imagem verticalmente */
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+main button img {
+  width: 50px; /* Reduzindo a largura da imagem */
+  height: auto; /* Mantendo a proporção */
+  margin-top: 10px; /* Espaço entre o texto e a imagem */
+}
+
+/* Efeito ao passar o mouse */
+main button:hover {
+  background-color: #630caa;
+  color: white;
+}
+
+.searchBox {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+.searchBox p {
+  height: 40px;
+  text-align: center;
+  color: #630caa;
+}
+
+/* Ajuste para seção */
+section {
+  padding: 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.container-bem-vindo {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position-x: 200%;
+  background-position-y: 100%;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.377), rgba(0, 153, 255, 0.795)),
+                url(/assets/images/skyPlaneMan.jpg);      
+  background-attachment: fixed;
+  opacity: 90%;       
+  
+}
+
+.container-bem-vindo h1 {
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align:right;
+  height: 1350px;
+  text-shadow: #630caa;
+  box-shadow: #630caa;
+}
+
+.container-bem-vindo .pontocom {
+  color: #630caa;
+  display: flex;
+  
+}
+
+section li {
+  height: 300px;
+}
