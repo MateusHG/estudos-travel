@@ -2,7 +2,7 @@ header {
   height: 360px;
   position: relative;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), 
-              url('/assets/images/pexels-asadphoto-1430677.png');
+              url('/estudos-travel/assets/images/pexels-asadphoto-1430677.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -40,7 +40,7 @@ nav button:hover {
     min-height: 400px; /* Ajuste para cobrir melhor */
     position: relative;
     background: linear-gradient(to top, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0), rgba(0, 153, 255, 0.795)),
-                url('/assets/images/pexels-asadphoto-1430677.png');
+                url('/estudos-travel/assets/images/pexels-asadphoto-1430677.png');
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
@@ -163,7 +163,7 @@ section {
   background-position-x: 200%;
   background-position-y: 100%;
   background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.377), rgba(0, 153, 255, 0.795)),
-                url(/assets/images/skyPlaneMan.jpg);      
+                url(/estudos-travel/assets/images/skyPlaneMan.jpg);      
   background-attachment: fixed;
   opacity: 90%;       
   
